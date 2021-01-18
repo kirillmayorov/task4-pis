@@ -1,0 +1,1 @@
+To run project clone it and write '''docker-compose up -d''' in terminal

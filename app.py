@@ -10,7 +10,7 @@ db = client.tododb
 
 @app.route("/")
 def hello():
-    html = "<h3>Hello, Artem!</h3>" \
+    html = "<h1>Hello!</h1>" \
            "<b>Hostname:</b> {hostname}<br/>" \
            "<b>simple flask + mongo app with docker-composer<br/>"
     return html.format(name=os.getenv("NAME", "world"), hostname=socket.gethostname())
